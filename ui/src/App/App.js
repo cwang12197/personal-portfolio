@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Typewriter from "typewriter-effect";
+import Heading from '../Heading/Heading';
 
 function App() {
   return (
+   
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <div className = "heading">
+        <Heading />
+        </div>
+
+          <div className="greeting">
+            Hey there! I am
+            <br />
+            <span>
+              <p>Christina Wang</p>
+            </span>
+          </div>
+          {/* <div className="subtext">
+            <Typewriter
+              options={{
+                strings: ["Web Developer", ":)", "Cat Lover"],
+                autoStart: true,
+                loop: true,
+                delay: 60
+              }}
+            />
+          </div> */}
+        </div>
   );
 }
 
