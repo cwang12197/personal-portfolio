@@ -1,13 +1,13 @@
 import './App.css';
 import Typewriter from "typewriter-effect";
-import Heading from '../Heading/Heading';
+import NavBar from '../NavBar/NavBar';
 
 function App() {
   return (
    
     <div className="App">
         <div className = "heading">
-        <Heading />
+        <NavBar />
         </div>
 
           <div className="greeting">
